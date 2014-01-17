@@ -1,0 +1,10 @@
+*xccheckout*
+CMakeCache.txt
+ExampleControlUnit.xcodeproj/xcuserdata
+CMakeFiles/*
+build/*
+DerivedData
+ExampleControlUnit.xcodeproj/project.xcworkspace/xcuserdata
+Makefile
+cmake_install.cmake
+install_manifest.txt
