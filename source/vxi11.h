@@ -5,7 +5,7 @@
 
 #ifndef _VXI11_H_RPCGEN
 #define _VXI11_H_RPCGEN
-
+#undef __LP64__
 #include <rpc/rpc.h>
 
 #include <pthread.h>

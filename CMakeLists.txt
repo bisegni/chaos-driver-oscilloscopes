@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 2.6)
 option(BUILD_FORCE_32 "Set to ON to enable 32 bit compilation" OFF)
 
 
@@ -26,7 +26,7 @@ LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/usr/local/lib)
 
 ADD_DEFINITIONS(-g -O2 -Wall)
 
-SET(Tektronicks_src source/main.cpp source/Tektronicks.cpp )
+SET(Tektronicks_src source/main.cpp source/Tektronicks.cpp source/tekfun.cc source/vxi11_clnt.cc source/vxi11_svc.cc source/vxi11_user.cc source/vxi11_xdr.cc)
 
 ADD_EXECUTABLE(Tektronicks ${Tektronicks_src})
 

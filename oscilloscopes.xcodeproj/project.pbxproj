@@ -38,6 +38,7 @@
 		327983FC1886D97200DADDFC /* vxi11_xdr.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vxi11_xdr.cc; sourceTree = "<group>"; };
 		327983FD1886D97200DADDFC /* vxi11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vxi11.h; sourceTree = "<group>"; };
 		327984031886DA7D00DADDFC /* vxi11.x */ = {isa = PBXFileReference; lastKnownFileType = text; path = vxi11.x; sourceTree = "<group>"; };
+		32AB32781890420900CAC5E2 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		32C9763417D494D400F76D3F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		32C9764A17D4955400F76D3F /* oscilloscopes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oscilloscopes; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D531EC17D4877E00BE1040 /* Tektronicks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tektronicks.h; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		32D531E217D4877E00BE1040 = {
 			isa = PBXGroup;
 			children = (
+				32AB32781890420900CAC5E2 /* CMakeLists.txt */,
 				32D531E817D4877E00BE1040 /* source */,
 				32C9764B17D4955400F76D3F /* Products */,
 			);
